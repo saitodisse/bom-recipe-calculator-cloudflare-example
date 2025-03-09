@@ -13,6 +13,8 @@
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
-		return new Response('Hello World!');
+		return new Response('Welcome to your worker!', {
+			headers: { 'content-type': 'text/plain' },
+		});
 	},
 } satisfies ExportedHandler<Env>;
