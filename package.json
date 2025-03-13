@@ -17,6 +17,6 @@
 		"wrangler": "^3.114.0"
 	},
 	"dependencies": {
-		"@saitodisse/bom-recipe-calculator": "npm:@jsr/saitodisse__bom-recipe-calculator@^0.1.1"
+		"@saitodisse/bom-recipe-calculator": "npm:@jsr/saitodisse__bom-recipe-calculator@^0.3.0"
 	}
 }
